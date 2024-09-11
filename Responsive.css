@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+
+    #skill-display {
+        width: 90%;
+    }
+
+    .exp-box {
+        width: 80%;
+        left: 12% !important;
+    }
+
+    #exp-box-divider {
+        left: 8%;
+        height: 55%;
+        top: 15%;
+    }
+
+    .exp-box::after {
+        left: -6.5% !important;
+    }
+
+    .edu-box {
+        width: 80%;
+        left: 12% !important;
+    }
+
+    #edu-box-divider {
+        left: 8%;
+        height: 55%;
+        top: 15%;
+    }
+
+    .edu-box::after {
+        left: -6.5% !important;
+    }
+
+    #contact-display {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-form {
+        width: 80%;
+    }
+
+    #contact-text {
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    #social-2 {
+        margin-top: 10%;
+    }
+}
+
+.dropdownmenu {
+    display: none;
+}
+
+@media screen and (max-width: 572px) {
+    .exp-box {
+        width: 90%;
+    }
+
+    .edu-box {
+        width: 90%;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 350px;
+    }
+
+    #navigation {
+        display: none;
+    }
+
+    #head-display {
+        align-items: center;
+        height: 45%;
+    }
+
+    #myName {
+        font-size: 30px;
+        margin-left: 7%;
+    }
+
+    #dropDownMenuContainer {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        height: 40%;
+    }
+
+    .dropdownmenu {
+        display: contents;
+    }
+
+    .icon {
+        color: white;
+        font-size: 2rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 30%;
+        position: absolute;
+        right: 5px;
+        width: 30px;
+    }
+
+    .submenu {
+        list-style: none;
+        background-color: rgb(160, 160, 160);
+        position: absolute;
+        padding: 0;
+        left: -270%;
+        box-shadow: 0px 0px 8px 5px rgb(75, 75, 75);
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    }
+
+    .submenu li:hover {
+        background-color: rgb(113, 113, 113);
+    }
+
+    .icon:hover .submenu{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .submenu li {
+        padding: 0 8px 0 8px ;
+        font-size: 10px;
+    }
+
+    .submenu a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: "Noto Sans";
+    }
+}
